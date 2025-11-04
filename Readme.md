@@ -1,10 +1,10 @@
 # 🧩 Anime Profile Card Generator
 
-**Nama Proyek:** Anime Profile Card Generator
-**Topik UTS:** Live Preview Generator (Topik Bebas)
-**Dibuat oleh:** Ivan Wirahadi Permana/4524210045
-**Mata Kuliah:** Desain Web
-**Tahun:** 2025
+* **Nama Proyek:** Anime Profile Card Generator
+* **Topik UTS:** Live Preview Generator (Topik Bebas)
+* **Dibuat oleh:** Ivan Wirahadi Permana/4524210045
+* **Mata Kuliah:** Desain Web
+* **Tahun:** 2025
 
 ---
 
@@ -134,7 +134,7 @@ previewNama.addEventListener("click", function () {
 ## 📂 Struktur Folder
 
 ```
-📁 uts-dw-[nama-npm]/
+📁 uts-dw-Ivan Wirahadi Permana-4524210045
 │
 ├── index.html
 ├── style.css
@@ -170,19 +170,21 @@ previewNama.addEventListener("click", function () {
 
 -----
 ## 💻 Screenshot Live Server
+<img width="1899" height="925" alt="image" src="https://github.com/user-attachments/assets/680fd69b-1184-47c7-a49d-c5a863777154" />
+
+<img width="1899" height="925" alt="image" src="https://github.com/user-attachments/assets/c47dba0f-9bc9-4d9f-a4db-db937b7525e4" />
 
 -----
 
 ## 🧭 Persyaratan UTS yang Terpenuhi
 
-✅ Struktur HTML lengkap dan semantik
-✅ Desain responsif dengan media query
-✅ Implementasi Live Preview menggunakan JavaScript
-✅ Styling profesional dan konsisten
-✅ Minimal 3 input field sesuai topik
-✅ Interaktivitas tambahan dengan event click
-✅ Menggunakan `clamp()`, flexbox, dan `box-sizing`
-✅ Git commit dan struktur proyek sesuai instruksi
+- [x] Repositori GitHub sudah dibuat
+- [x] Melakukan minimal 3 commit
+- [x] Menerapkan HTML Semantik (header, main, footer)
+- [x] Formulir sudah aksesibel (label + for/id)
+- [x] Layout Mobile-First (1 kolom)
+- [x] Layout Desktop (2 kolom) pakai Grid/Flexbox
+- [x] Menerapkan JavaScript Live Preview (minimal 3 input)
 
 -----
 
