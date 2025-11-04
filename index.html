@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anime Profile Card Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Anime Profile Card Generator</h1>
+    <p>Buat kartu profil karaktermu secara langsung!</p>
+  </header>
+
+  <!-- Hero Section -->
+   
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        
+        <h2><span class="highlight">Buat</span> Anime Profile Card</h2>
+        <p>
+          Buat kartu profil <span class="highlight">anime favoritmu </span>dengan mudah! 
+          Tambahkan nama, asal anime, deskripsi, dan gambar karakter untuk melihat hasilnya secara langsung.
+        </p>
+        <a href="#panel-kontrol" class="btn-hero">Mulai Sekarang</a>
+      </div>
+      <div class="hero-image"> 
+        <img src="Assets/background.jpg" alt="Anime Girl">
+      </div>
+    </div>
+  </section>
+
+  <main style="padding-top: 2rem;">
+    <!-- Panel Kontrol -->
+    <section class="panel-kontrol" id="panel-kontrol">
+      <h2>Detail Karakter</h2>
+      <form id="formAnime">
+        <div class="form-group">
+          <label for="pNama">Nama Karakter</label>
+          <input type="text" id="pNama" placeholder="Masukkan nama karakter..." />
+        </div>
+
+        <div class="form-group">
+          <label for="pAnime">Asal Anime</label>
+          <input type="text" id="pAnime" placeholder="Masukkan nama anime..." />
+        </div>
+
+        <div class="form-group">
+          <label for="pBirthday">Tanggal Lahir Karakter</label>
+          <input type="text" id="pBirthday" placeholder="Masukkan Tanggal Lahir Karakter..." />
+        </div>
+
+
+        <div class="form-group">
+          <label for="pDeskripsi">Deskripsi Singkat</label>
+          <textarea id="pDeskripsi" rows="3" placeholder="Tulis deskripsi singkat..."></textarea>
+        </div>
+
+        
+        <div class="form-group">
+          <label for="pGambar">URL Gambar Karakter</label>
+          <input type="text" id="pGambar" placeholder="Masukkan link gambar karakter..." />
+        </div>
+      </form>
+    </section>
+
+    <!-- Preview-Card -->
+    <article class="area-pratinjau">
+      <h2>Preview Card</h2>
+      <div class="kartu-anime">
+        <img id="preview-gambar" src="Assets/akiyamaMizuki (2).jpg" alt="Gambar Karakter">
+        <div class="info-karakter">
+          <h3 id="preview-nama">Nama Karakter</h3>
+          <h4 id="preview-anime">Asal Anime</h4>
+          <h4 id="preview-birthday">Tanggal Lahir Karakter</h4>
+          <p id="preview-deskripsi">Deskripsi karakter akan muncul di sini.</p>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 Anime Profile Card Generator by vestiapani</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
